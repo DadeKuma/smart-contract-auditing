@@ -180,7 +180,7 @@ require(block.number - _lastChangedTargetAddress >= changeTime(), "Not enough ti
 
 **Recommendation**
 
-Instead of using `>=`, use `<` (same concept for `<=` and `>`) and invert the order of the operators to save 3 gas/call.
+Instead of using `>=`, use `<` (same concept for `<=` and `>`) and invert the order of the operands to save 3 gas/call.
 
 ### [L4] Cache result of `totalSupply() to save gas
 
